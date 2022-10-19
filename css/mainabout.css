@@ -1,0 +1,25 @@
+.about {
+  display: flex;
+}
+
+.about__title {
+  margin: 0;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 69px;
+  color: #333333;
+}
+
+.about__text {
+  margin: 0;
+  width: 445px;
+  margin-top: 60px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+}/*# sourceMappingURL=mainabout.css.map */
