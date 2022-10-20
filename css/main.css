@@ -355,6 +355,14 @@ img {
   color: #005FA3;
 }
 
+.main__clients {
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 1920px;
+  background-color: #EBEBEB;
+}
+
 .clinents__title {
   margin: 0;
   margin-top: 163px;
@@ -429,4 +437,157 @@ img {
   border-width: 0 4px 4px 0;
   padding: 6px;
   transform: rotate(135deg);
+}
+
+.main__contact {
+  margin: 0 auto;
+  background-image: url(/images/contact-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 623px;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact__list {
+  padding-top: 122px;
+}
+
+.contact-left__title {
+  margin: 0;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 69px;
+  color: #FFFFFF;
+}
+
+.contact-left__text {
+  width: 445px;
+  margin: 0;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.contact-left__tel {
+  position: relative;
+  left: 34px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+.contact-left__tel:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -34px;
+  width: 18px;
+  height: 30px;
+  background-image: url("/images/contact-number.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact-left__email {
+  position: relative;
+  left: 100px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+.contact-left__email:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -45px;
+  width: 39px;
+  height: 30px;
+  background-image: url("/images/contact-email.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact__form {
+  position: relative;
+  margin-top: 135px;
+  margin-left: 101px;
+}
+
+.contact__label {
+  position: absolute;
+  top: -25px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.contact__label:nth-child(5) {
+  top: 25px;
+}
+
+.contact__input {
+  width: 255px;
+  margin-right: 13px;
+  background-color: inherit;
+  border: inherit;
+  border-bottom: 2px solid;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 29px;
+  color: #BDBDBD;
+}
+
+.contact__label--commit {
+  top: 70px;
+}
+
+.contact__commit {
+  margin-top: 60px;
+  width: 540px;
+  background-color: inherit;
+  border: inherit;
+  border-bottom: 2px solid;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 29px;
+  color: #BDBDBD;
+}
+
+.contact__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 60px;
+  margin-top: 69px;
+  margin-left: auto;
+  background: #005FA3;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
